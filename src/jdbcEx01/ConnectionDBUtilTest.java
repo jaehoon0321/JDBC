@@ -15,6 +15,8 @@ public class ConnectionDBUtilTest {
             Connection con = DBUtil.getConnection();  //도로연결
 
             Statement stmt = con.createStatement();   //자동차
+            /// DBUtil.getConnection()이라는 메서드를 호출해서 데이터베이스와의 연결 통로(Connection)를 만드는작업
+
             int result = stmt.executeUpdate("INSERT INTO person(id,name) values(1000000,'홍길동11')");
             if (result == 1) {
                 System.out.println("Insert successful!");

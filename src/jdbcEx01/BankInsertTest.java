@@ -13,9 +13,9 @@ public class BankInsertTest {
         String password = "mysql1234";
 
         try {
-            Class.forName(driverName);
-            System.out.println("Driver loaded OK!");
-        } catch (Exception e) {
+            Class.forName(driverName); //class.forname으로 동적 로드하고
+            System.out.println("Driver loaded OK!");//성공하면 Driver loaded 출력
+        } catch (Exception e) {// 실패했다면
             System.out.println("Driver loaded failed!");
 
         }
@@ -39,6 +39,7 @@ public class BankInsertTest {
 
             // 2. 방금 INSERT한 데이터가 잘 들어갔는지 확인하기 위한 SELECT 쿼리 실행
             String selectSql = "SELECT ano, owner, balance FROM account WHERE ano = ?";
+
             try (PreparedStatement pstmt = con.prepareStatement(selectSql)) {
                 // 조회할 계좌번호 지정
                 pstmt.setString(1, "1111-1212-3232-12121");
