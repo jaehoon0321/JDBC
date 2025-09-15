@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="77552adb-8588-4338-9bad-e86ab5fb649c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManagementSystem" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/callableStatementEx/MemberInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/callableStatementEx/callableStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbcEx01/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_boards/Controller/BoardMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_boards/model/BoardDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_boards/view/BoardView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_boards/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc_boards/vo/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/BoardInsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/ConnectionDBUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/ConnectionEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/ConnectionPreparedInsert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/ConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/UserInsertEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/UserInsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx01/vo/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx02/PersonDeleteEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx02/PersonUpdateEx.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx03/AccountDelete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx03/AccountInsert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx03/AccountSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbcEx03/AccountUpdate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbc_boards/Controller/BoardMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbc_boards/model/BoardDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbc_boards/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/jdbc_boards/vo/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc-programming/src/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc-programming/src/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/BankInsertTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/BoardInsertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx01/BoardInsertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/ConnectionDBUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx01/ConnectionDBUtilTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/ConnectionEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx01/ConnectionEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/ConnectionPreparedInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx01/ConnectionPreparedInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/UserInsertEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx01/UserInsertEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/UserInsertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx01/UserInsertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/jdbcTest1/ConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/jdbcTest1/PersonEx1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx01/vo/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx01/vo/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx02/PersonDeleteEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx02/PersonDeleteEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx02/PersonUpdateEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx02/PersonUpdateEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx03/AccountDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx03/AccountDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx03/AccountInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx03/AccountInsert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx03/AccountSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx03/AccountSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbcEx03/AccountUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbcEx03/AccountUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/DBUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/DBUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/dbinfo.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/dbinfo.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jaehoon0321&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jaehoon0321/JDBC.git&quot;,
+    &quot;accountId&quot;: &quot;75d949fa-81ec-4bb2-893e-93fa606572c3&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="32U94wv67mFDWbanKDzepyONhnJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.DBUtil.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MemberInsert.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Study/lib/mysql-connector-java-8.0.22.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora",
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="jdbc_boards.Controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jaeho\IdeaProjects\jdbc\src" />
+      <recent name="C:\Users\jaeho\IdeaProjects\jdbc\src\jdbc-programming\src\jdbc_boards\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jaeho\IdeaProjects\jdbc\src\jdbc-programming\src\jdbc_boards\util" />
+      <recent name="C:\Users\jaeho\IdeaProjects\jdbc\src" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26574.91" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26574.91" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77552adb-8588-4338-9bad-e86ab5fb649c" name="Changes" comment="" />
+      <created>1757464099148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757464099148</updated>
+      <workItem from="1757464100453" duration="12373000" />
+      <workItem from="1757480998196" duration="13891000" />
+      <workItem from="1757664861350" duration="1869000" />
+      <workItem from="1757895132143" duration="11492000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

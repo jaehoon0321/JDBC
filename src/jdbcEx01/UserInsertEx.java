@@ -19,8 +19,8 @@ public class UserInsertEx {
 
 
             //3. Connection객체가 생성되었다면, 쿼리문을  Statements 객체에 담아 DB에게 전송한다.
-            String sql = " insert into users(userid, username, userpassword, userage, useremail) " +
-                    " values('10','신세계','1234',20,'shin@gmail.com')";
+              String sql = " insert into users(userid, username, userpassword, userage, useremail) " +
+                           " values('10','신세계','1234',20,'shin@gmail.com')";
 
 
             //4. 전송한 결과를 받아서 처리한다.
@@ -44,5 +44,11 @@ public class UserInsertEx {
                 }
             }
         }
+
+
+
+
+
+
     }
 }

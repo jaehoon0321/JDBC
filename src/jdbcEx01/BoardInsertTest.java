@@ -32,7 +32,7 @@ public class BoardInsertTest {
             pstmt.setString(2, "꽃이 동산에 가득하니 행복하네요1111");
             pstmt.setString(3, "신세계111");
             pstmt.setString(4, "spring.jpg");
-            pstmt.setBlob(5, new FileInputStream("C:/Temp1/spring.jpg"));
+            pstmt.setBlob(5, new FileInputStream("C:/Temp/spring.jpg"));
 
             //SQL문 실행
             int result = pstmt.executeUpdate();
@@ -49,57 +49,37 @@ public class BoardInsertTest {
                 }
             }
 
-            if (bno != -1) {
-                String selectsql = "SELECT bno, btitle,bcontent,bwriter,bdate,bfilename " +
-                        "FROM boards WHERE bno = ? ";
+                if (bno != -1) {
+                    String selectsql = "SELECT bno, btitle,bcontent,bwriter,bdate,bfilename " +
+                            "FROM boards WHERE bno = ? ";
 
-                try (PreparedStatement selectpstmt = con.prepareStatement(selectsql)) {
-                    selectpstmt.setInt(1, bno);
-                    try (ResultSet rs = selectpstmt.executeQuery()) {
+                    try (PreparedStatement selectpstmt = con.prepareStatement(selectsql)) {
+                           selectpstmt.setInt(1, bno);
+                        try (ResultSet rs = selectpstmt.executeQuery()) {
 
-                        if(rs.next()) {
-                            bno = rs.getInt("bno");
-                            System.out.println("bno = " + bno);
-                            System.out.println("btitle = " + rs.getString("btitle"));
-                            System.out.println("bcontent = " + rs.getString("bcontent"));
-                            System.out.println("bwriter = " + rs.getString("bwriter"));
-                            System.out.println("bdate = " + rs.getTimestamp("bdate"));
-                            System.out.println("bfilename = " + rs.getString("bfilename"));
+                            if(rs.next()) {
+                                bno = rs.getInt("bno");
+                                System.out.println("bno = " + bno);
+                                System.out.println("btitle = " + rs.getString("btitle"));
+                                System.out.println("bcontent = " + rs.getString("bcontent"));
+                                System.out.println("bwriter = " + rs.getString("bwriter"));
+                                System.out.println("bdate = " + rs.getTimestamp("bdate"));
+                                System.out.println("bfilename = " + rs.getString("bfilename"));
+                            }
+
                         }
-
+                    } catch (Exception e) {
+                        throw new RuntimeException(e);
                     }
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
+
+
                 }
 
 
+
+            } catch(Exception e){
+                System.out.println("Connection established!" + e);
             }
 
-
-
-        } catch(Exception e){
-            System.out.println("Connection established!" + e);
         }
-
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

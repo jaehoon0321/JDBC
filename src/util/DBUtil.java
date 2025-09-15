@@ -2,6 +2,7 @@ package util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.ResourceBundle;
 
@@ -35,3 +36,8 @@ public class DBUtil {
         return null;
     }
 }
+
+//    public static void close(PreparedStatement pstmt) {
+//    }
+
+
